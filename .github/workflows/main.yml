@@ -16,11 +16,14 @@ jobs:
 
     # Steps represent a sequence of tasks that will be executed as part of the job
     steps:
-      with:
-        filename: metrics.classic.svg
-        token: ${{ secrets.METRICS_TOKEN }}
-        base: header, repositories
-        plugin_lines: yes
-        plugins_errors_fatal: ${{ github.repository == 'lowlighter/lowlighter' }}
-        output_action: pull-request
-        delay: 120
+
+      - name: Metrics
+        uses: lowlighter/metrics@master
+        with:
+          filename: metrics.classic.svg
+          token: ${{ secrets.METRICS_TOKEN }}
+          base: header, repositories
+          plugin_lines: yes
+          plugins_errors_fatal: ${{ github.repository == 'lowlighter/lowlighter' }}
+          output_action: pull-request
+          delay: 120
