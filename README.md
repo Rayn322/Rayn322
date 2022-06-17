@@ -1,3 +1,3 @@
 ### Hi there 👋
 
-I enjoy making Minecraft server plugins and simple Beat Saber mods.
+I’m a high school student who makes Minecraft server plugins, websites, and whatever else comes to mind.
