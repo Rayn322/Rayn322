@@ -1,3 +1,3 @@
 ### Hi there 👋
 
-I’m a student who makes websites and Minecraft plugins.
+I’m a student who does web dev and whatever else interests me.
